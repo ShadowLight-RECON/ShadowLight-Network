@@ -1,99 +1,195 @@
-# ShadowLight Analytical Modes & Behaviors
+# ShadowLight Network — Architecture
 
-ShadowLight Network operates through defined analytical modes.
-Each mode represents a distinct cognitive posture, governing
-how information is explored, interpreted, and synthesized.
+## Purpose
 
-Modes are not features or tools — they are structured ways
-of thinking applied to complex problems.
+This document defines the **conceptual architecture** of ShadowLight Network.
 
----
+It describes *what* ShadowLight is composed of, *how* its parts relate, and *how information flows* through the system — **without prescribing implementation details, programming languages, or deployment models**.
 
-## 1. Reconnaissance Mode
-
-**Purpose:** Broad situational awareness and surface mapping.
-
-Reconnaissance Mode is used to understand an environment before
-making assumptions. It emphasizes observation, pattern detection,
-and scope definition.
-
-**Characteristics:**
-- High‑level exploration
-- Identification of unknowns
-- Mapping entities, relationships, and signals
-- Avoids early conclusions
-
-**Typical Use Cases:**
-- Initial threat landscape assessment
-- Early‑stage research into unfamiliar systems
-- Problem framing and hypothesis generation
+ShadowLight is an **analytical framework**, not a monolithic application.
 
 ---
 
-## 2. Analytical Mode
+## Architectural Overview
 
-**Purpose:** Structured reasoning and hypothesis testing.
+ShadowLight Network is organized as a **layered analytical system** designed to observe, reason, adapt, and respond within complex environments.
 
-Analytical Mode focuses on narrowing uncertainty through
-methodical examination of evidence and competing explanations.
+At a high level, the architecture consists of:
 
-**Characteristics:**
-- Explicit assumptions
-- Step‑by‑step reasoning
-- Comparison of alternative hypotheses
-- Emphasis on logical consistency
+1. **Input & Observation Layer**
+2. **Normalization & Context Layer**
+3. **Analytical Core**
+4. **Behavior & Mode Layer**
+5. **Decision & Output Layer**
+6. **Feedback & Learning Loop**
 
-**Typical Use Cases:**
-- Threat attribution
-- Root cause analysis
-- Validation or rejection of preliminary conclusions
+Each layer is **logically isolated**, but **functionally connected**.
 
 ---
 
-## 3. Adversarial Mode
+## 1. Input & Observation Layer
 
-**Purpose:** Stress‑testing conclusions against hostile intent.
+### Role
+The Input Layer is responsible for **receiving raw signals** from the environment.
 
-Adversarial Mode assumes deception, manipulation, or deliberate
-obfuscation within the data or environment.
+### Characteristics
+- Accepts structured and unstructured inputs
+- Treats all inputs as *potentially incomplete or deceptive*
+- Does not interpret meaning — only captures data
 
-**Characteristics:**
-- Challenges surface‑level interpretations
-- Models attacker incentives and strategies
-- Searches for contradictions and blind spots
-- Assumes incomplete or poisoned information
+### Examples (Conceptual)
+- Logs
+- Events
+- Textual data
+- Signals
+- Metadata
+- Human‑provided observations
 
-**Typical Use Cases:**
-- Red‑team analysis
-- Disinformation assessment
-- Security and intelligence investigations
-
----
-
-## 4. Synthesis Mode
-
-**Purpose:** Coherent integration of findings into insight.
-
-Synthesis Mode consolidates fragmented observations into
-a defensible narrative or decision‑support output.
-
-**Characteristics:**
-- Integration across domains
-- Clarification of confidence levels
-- Identification of remaining uncertainties
-- Actionable framing
-
-**Typical Use Cases:**
-- Reporting and briefings
-- Strategic decision support
-- Knowledge transfer and documentation
+This layer is **passive** by design.
 
 ---
 
-## Mode Interaction
+## 2. Normalization & Context Layer
 
-ShadowLight modes are not linear or exclusive.
-Analysts may move fluidly between modes as understanding evolves.
+### Role
+Transforms raw input into **comparable, analyzable forms**.
 
-The effectiveness of ShadowLight depends on
-intentional mode selection and disciplined transitions.
+### Responsibilities
+- Normalize formats
+- Extract salient features
+- Attach contextual metadata (time, source, confidence)
+- Reduce noise without destroying signal
+
+### Key Principle
+> Context is preserved, not flattened.
+
+This layer ensures that downstream analysis is **coherent and consistent**.
+
+---
+
+## 3. Analytical Core
+
+### Role
+The Analytical Core is the **reasoning engine** of ShadowLight.
+
+### Capabilities
+- Pattern recognition
+- Correlation and divergence detection
+- Hypothesis generation
+- Anomaly identification
+- Cross‑domain inference
+
+### Design Philosophy
+- Analytical logic is **modular**
+- No single algorithm is dominant
+- Competing interpretations are allowed to coexist
+
+The core does not *decide* — it **analyzes**.
+
+---
+
+## 4. Behavior & Mode Layer
+
+### Role
+Defines *how* ShadowLight behaves under different analytical intentions.
+
+### Modes
+Modes represent **analytical postures**, such as:
+- Reconnaissance
+- Defensive analysis
+- Exploratory reasoning
+- Validation & verification
+- Adversarial simulation
+
+### Characteristics
+- Modes influence **priority, depth, and bias**
+- Modes do not change the core — they *steer it*
+- Multiple modes may operate sequentially or in parallel
+
+This layer is what gives ShadowLight its **adaptive personality**.
+
+---
+
+## 5. Decision & Output Layer
+
+### Role
+Translates analysis into **actionable outcomes**.
+
+### Outputs May Include
+- Assessments
+- Risk characterizations
+- Recommendations
+- Alerts
+- Summaries
+- Confidence‑weighted conclusions
+
+### Constraints
+- Outputs are **explainable**
+- Uncertainty is explicitly acknowledged
+- Silence is an acceptable output
+
+ShadowLight favors **clarity over certainty**.
+
+---
+
+## 6. Feedback & Learning Loop
+
+### Role
+Ensures ShadowLight evolves over time.
+
+### Functions
+- Capture outcome effectiveness
+- Incorporate external feedback
+- Adjust weighting and heuristics
+- Refine future analysis paths
+
+### Key Principle
+> Learning is deliberate, not automatic.
+
+This prevents uncontrolled drift or unintended behavior changes.
+
+---
+
+## Cross‑Cutting Architectural Principles
+
+### Modularity
+Each layer can be extended, replaced, or refined independently.
+
+### Observability
+Internal state and reasoning paths should be inspectable.
+
+### Human‑in‑the‑Loop
+ShadowLight is designed to **augment**, not replace, human judgment.
+
+### Non‑Determinism Awareness
+Multiple plausible interpretations are preferred over forced conclusions.
+
+---
+
+## What This Architecture Is Not
+
+- Not a real‑time control system
+- Not a fully autonomous agent
+- Not a single executable product
+- Not tied to any specific technology stack
+
+---
+
+## Architectural Stability
+
+This architecture is intended to be:
+- **Stable across versions**
+- **Flexible in implementation**
+- **Expandable through modes and behaviors**
+
+Future versions may extend layers, but the **core structure should remain recognizable**.
+
+---
+
+## Summary
+
+ShadowLight Network’s architecture provides a **clear mental model**:
+
+> Observe → Contextualize → Analyze → Adapt Behavior → Respond → Learn
+
+This document serves as the **structural backbone** for all current and future ShadowLight development.
