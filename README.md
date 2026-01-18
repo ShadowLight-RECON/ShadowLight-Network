@@ -1,3 +1,6 @@
+![License](https://img.shields.io/badge/license-MIT-black)
+![Status](https://img.shields.io/badge/status-active--development-black)
+
 # ShadowLight Network
 
 **ShadowLight Network** is a documentation‑first analytical framework designed to formalize how complex systems, behaviors, and decisions are examined, categorized, and understood.
