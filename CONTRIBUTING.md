@@ -31,7 +31,7 @@ Meaningful contributions include:
 - Corrections, consistency fixes, or precision enhancements
 - Well‑reasoned proposals aligned with ShadowLight’s scope
 
-Low‑effort or speculative contributions will not be accepted.
+Low‑effort, speculative, or unfocused contributions will not be accepted.
 
 ---
 
@@ -40,16 +40,76 @@ Low‑effort or speculative contributions will not be accepted.
 Before contributing, ensure that your work:
 
 - Aligns with the existing philosophy and design intent
-- Is clearly written and well‑structured
+- Is clearly written, structured, and precise
 - Avoids introducing unnecessary complexity
 - Does not expand scope without justification
-- Respects existing terminology and concepts
+- Respects existing terminology and conceptual boundaries
 
-All contributions should be intentional and explain *why* they exist, not just *what* they add.
+Every contribution should explain **why** it exists, not just **what** it adds.
 
 ---
 
 ## How to Contribute
 
-1. **Fork the repository**
-2. **Create a focused branch**
+1. Fork the repository
+2. Create a focused branch  
+   `feature/short-description`  
+   `docs/clarity-improvement`
+3. Make your changes
+4. Ensure documentation remains consistent
+5. Submit a Pull Request
+
+Your pull request must clearly describe:
+- What was changed
+- Why the change is necessary
+- How it improves ShadowLight Network
+
+---
+
+## Pull Request Review
+
+All pull requests are reviewed by maintainers.
+
+Review criteria include:
+
+- Alignment with project philosophy
+- Clarity and precision
+- Long‑term maintainability
+- Conceptual integrity
+
+Maintainers may request revisions or decline contributions that do not meet these standards.
+
+---
+
+## Scope Control
+
+ShadowLight Network has defined boundaries.
+
+Contributions that attempt to:
+
+- Reframe the project’s purpose
+- Introduce unrelated tooling
+- Dilute conceptual rigor
+- Turn ShadowLight into a general‑purpose system
+
+will be declined.
+
+This is intentional.
+
+---
+
+## Communication Standards
+
+All contributors are expected to communicate professionally and respectfully.
+
+Focused, constructive discussion is required at all times.
+
+---
+
+## Final Note
+
+ShadowLight Network is built deliberately.
+
+If you are contributing, you are helping refine a system — not experimenting on one.
+
+Quality matters. Precision matters. Intent matters.
