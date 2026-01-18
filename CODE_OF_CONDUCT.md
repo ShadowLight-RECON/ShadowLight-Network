@@ -1,71 +1,65 @@
-# Code of Conduct
+# Code of Conduct  
+ShadowLight Network
 
 ## Our Commitment
 
-ShadowLight Network is committed to fostering a professional, respectful, and focused environment for collaboration, discussion, and contribution.
+ShadowLight Network is committed to fostering an open, respectful, and professional environment for everyone who participates in the project.
 
-This project exists to advance clarity, rigor, and structured analytical thinking. All participation is expected to support that goal.
+We value thoughtful collaboration, intellectual honesty, and constructive discourse. Participation in ShadowLight—whether through code, documentation, discussion, or research—must align with these principles.
 
----
+## Our Standards
 
-## Expected Behavior
+Examples of behavior that contributes to a positive environment include:
 
-Participants in the ShadowLight Network community are expected to:
+- Demonstrating respect and consideration for others
+- Engaging in thoughtful, constructive technical discussion
+- Accepting feedback gracefully and professionally
+- Focusing on ideas, not individuals
+- Acting with integrity and intellectual honesty
 
-- Communicate with clarity, respect, and professionalism
-- Engage in constructive, good‑faith discussion
-- Respect differing viewpoints when presented thoughtfully
-- Focus contributions on improving conceptual rigor, documentation quality, and system coherence
-- Accept feedback gracefully and provide it objectively
+Examples of unacceptable behavior include:
 
----
-
-## Unacceptable Behavior
-
-The following behaviors are not tolerated:
-
-- Harassment, intimidation, or personal attacks
-- Disruptive behavior or repeated off‑topic commentary
-- Low‑effort, spam‑like, or unserious contributions
-- Attempts to derail the project’s stated philosophy or scope
-- Misrepresentation of ShadowLight’s purpose or intent
-
----
+- Harassment, discrimination, or hostility of any kind
+- Personal attacks, insults, or derogatory language
+- Publishing private information without consent
+- Deliberate disruption of discussions or workflows
+- Misrepresentation of ShadowLight’s purpose or capabilities
 
 ## Scope
 
 This Code of Conduct applies to all project spaces, including but not limited to:
 
-- GitHub issues
-- Pull requests
-- Discussions
-- Documentation contributions
-- Any official ShadowLight communication channels
-
----
+- GitHub repositories
+- Issues, pull requests, and discussions
+- Community forums or communication channels
+- Any public or private interaction representing ShadowLight Network
 
 ## Enforcement
 
-Project maintainers reserve the right to:
+Project maintainers are responsible for enforcing this Code of Conduct.
 
-- Remove or edit content that violates this Code of Conduct
-- Temporarily or permanently restrict participation
-- Take any action deemed necessary to protect the integrity of the project
+Violations may result in actions including, but not limited to:
 
-All enforcement decisions are made with the long‑term health and clarity of ShadowLight Network in mind.
+- Warnings or requests for correction
+- Temporary or permanent removal from project spaces
+- Rejection of contributions
+- Reporting behavior when required by platform policy or law
+
+All enforcement decisions will be made with fairness, discretion, and the long‑term health of the project in mind.
+
+## Reporting
+
+If you experience or witness behavior that violates this Code of Conduct, please report it responsibly.
+
+Reports can be made by contacting the project maintainers through appropriate private channels as defined in the repository documentation.
+
+All reports will be handled confidentially and reviewed promptly.
+
+## Attribution
+
+This Code of Conduct is informed by established open‑source community standards and adapted to reflect ShadowLight Network’s values, scope, and long‑term vision.
 
 ---
 
-## Reporting Concerns
-
-If you observe behavior that violates this Code of Conduct, please report it through the appropriate project channels or by contacting the maintainers directly.
-
-Reports will be reviewed discreetly and handled with professionalism.
-
----
-
-## Final Note
-
-ShadowLight Network values depth, intent, and precision.
-
-Participation is a privilege — and contributions are expected to reflect the standards this framework represents.
+ShadowLight Network exists to advance clarity, precision, and trust.  
+All participants are expected to uphold these principles.
