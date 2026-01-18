@@ -1,54 +1,39 @@
 # ShadowLight Network
 
-ShadowLight Network is a structured, AI-assisted analytical framework
-designed to support research, investigation, and decision-making
-in complex and adversarial environments.
-
-ShadowLight prioritizes analytical rigor, transparency of reasoning,
-and analyst-centered design over automation or novelty.
+**Version:** v1.1.0  
+**Status:** Active – Documentation‑First Release  
+**Focus:** Conceptual, Analytical, and Structural Framework
 
 ---
 
-## Project Status
+## Overview
 
-**Current Phase:** Conceptual Foundation & Documentation  
-**Latest Release:** v1.0.0  
+ShadowLight Network is a **documentation‑driven analytical framework** designed to explore structured reasoning, operational modes, and conceptual architectures without being tied to a specific implementation.
 
-ShadowLight Network is currently focused on defining its philosophy,
-analytical modes, boundaries, and roadmap prior to implementation.
+It serves researchers, analysts, and system designers who want to reason about **how systems think, adapt, and limit themselves**—before code is ever written.
 
-This is an intentional design choice.
+ShadowLight prioritizes **clarity, intent, and structure** over execution.
 
 ---
 
-## What ShadowLight Is
+## What’s New in v1.1.0
 
-- A framework for structured analytical thinking
-- A support system for professional researchers and analysts
-- A foundation for future tooling and implementations
-- A documentation-first, research-grade project
+The v1.1.0 release formalizes ShadowLight as a **research‑ready framework**.
 
----
+### Added
+- Complete documentation architecture
+- Defined analytical modes
+- Explicit limitations and non‑goals
+- Versioning and roadmap clarity
+- Public change tracking via CHANGELOG
 
-## What ShadowLight Is Not
+### Stabilized
+- Project philosophy
+- Structural hierarchy
+- Contributor guidance
 
-- A consumer product
-- A one-click security solution
-- An autonomous decision-making system
-- A black-box AI tool
-
----
-
-## Documentation
-
-Core documentation lives in the `/docs` directory and includes:
-- Philosophy & Design Principles
-- Analytical Modes & Behaviors
-- Intended Use Cases & Non-Goals
-- Roadmap & Versioning
+This release marks the transition from **concept draft** to **organized framework**.
 
 ---
 
-## License
-
-ShadowLight Network is released under the Apache License 2.0.
+## Repository Structure
