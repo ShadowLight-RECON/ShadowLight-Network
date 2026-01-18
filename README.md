@@ -118,3 +118,9 @@ ShadowLight Network is designed to be **foundational**.
 It is meant to outlast individual tools, implementations, and trends — providing a stable analytical core others can build upon without redefining.
 
 If you are using ShadowLight, you are standing on its framework — and that is intentional.
+
+## Responsible Use Notice
+
+ShadowLight Network is provided for educational, research, and conceptual purposes only.
+Users are solely responsible for how the framework is applied.  
+See `DISCLAIMER.md` and `SECURITY.md` for details.
