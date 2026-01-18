@@ -1,6 +1,7 @@
 ![License](https://img.shields.io/badge/license-MIT-black)
 ![Status](https://img.shields.io/badge/status-active--development-black)
 
+
 New here? Start with [`docs/quick_start.md`](docs/quick_start.md).
 
 # ShadowLight Network
